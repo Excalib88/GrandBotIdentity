@@ -16,6 +16,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
+          <e p="TestController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
           <e p="ApplicationDbContext.cs" t="Include" />
@@ -23,6 +24,8 @@
         <e p="Migrations" t="Include">
           <e p="20200911134831_updatedIdentity.cs" t="Include" />
           <e p="20200911134831_updatedIdentity.Designer.cs" t="Include" />
+          <e p="20200919000619_InitIdentity.cs" t="Include" />
+          <e p="20200919000619_InitIdentity.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -40,6 +43,7 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="SeedData.cs" t="Include" />
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
